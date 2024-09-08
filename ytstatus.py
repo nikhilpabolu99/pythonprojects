@@ -6,11 +6,11 @@ import tweepy
 #API_KEY = 'AIzaSyAq9vTBrsBpL8UPCmeEgBF5VLgdXZUtXys'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
-consumer_key = 'w6jgPlkiwaG5nGz9O7dQhbo9h'
-consumer_secret = 'IgaH60hchp1NTqp9lWHl828vJtHkhyL8aXUKfVTt8m6QzaMmI8'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAPd1swEAAAAAjNjbDr9yfblTMjlNKxj0ueT4M5c%3D9OPnoZfWnXfXmLYr5YeE1SZVGLoh5tBh5At3AdDZc3Za7yAREs'
-access_token = '904083449538985984-Y9EHNyE6EdaF5aaLy43VKSxKvb5whea'
-access_token_secret = 'iaJG3Oe0Rc9VRz7i7KDXV3nJqjIjNkpZFx3PTCzyu1FBR'
+consumer_key = ''
+consumer_secret = ''
+bearer_token = ''
+access_token = ''
+access_token_secret = ''
 
 client = tweepy.Client(bearer_token=bearer_token, consumer_key=consumer_key, consumer_secret=consumer_secret, access_token=access_token, access_token_secret=access_token_secret)
 
