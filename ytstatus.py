@@ -3,7 +3,7 @@ import re
 from datetime import datetime, timezone, timedelta
 import tweepy
 
-API_KEY = 'AIzaSyAq9vTBrsBpL8UPCmeEgBF5VLgdXZUtXys'
+#API_KEY = 'AIzaSyAq9vTBrsBpL8UPCmeEgBF5VLgdXZUtXys'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 consumer_key = 'w6jgPlkiwaG5nGz9O7dQhbo9h'
